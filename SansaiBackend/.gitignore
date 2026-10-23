@@ -1,0 +1,17 @@
+node_modules
+dist
+
+# Keep environment variables out of version control
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+
+# Prisma
+/src/generated/prisma
+
+# OS files
+.DS_Store
